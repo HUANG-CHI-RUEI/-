@@ -1,0 +1,5 @@
+使用adb記得把Path加進去(在C:\Users\pei4b\AppData\Local\Android\Sdk\platform-tools ，
+將底下的adb.exe複製到tools文件，再將錄進添加到環進變數記得是tools資料夾)
+
+adb Permission denied 解決方法: 使用run-as com.example.你的packagename 進入
+然後就可以ls觀看資料庫了
