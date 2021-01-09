@@ -1,0 +1,2 @@
+由於版本更新，原本要extends DataSupport 改為 LitePalSupport
+並且delete表格方法為，LitePal.deleteAll()
