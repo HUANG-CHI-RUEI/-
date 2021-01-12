@@ -1,0 +1,5 @@
+使用NotificationCompact.Builder(this); 版本過舊
+改為NotificationCompat.Builder(Context context, String channelId)
+必須自行宣告channelId才行。
+
+2. 刪除mipmap的xml，以及判斷是if，判斷sdk和添加NotificationChannel

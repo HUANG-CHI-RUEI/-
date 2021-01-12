@@ -1,0 +1,1 @@
+將<Provider>裡面的android.support.v4.content.FileProvider改為androidx.core.content.FileProvider
