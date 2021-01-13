@@ -1,0 +1,3 @@
+上網查了一下，似乎 Android 9.0 預設已經不支援 HTTP 明碼連線了，
+解決方法，是在 AndroidManifest.xml 裡，
+android:usesCleartextTraffic="true"
