@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialTest">
         <activity android:name=".MainActivity"
-            android:label="Fruits">
+            android:label="One-Piece">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

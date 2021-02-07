@@ -3,4 +3,14 @@
     <string name="backup">Backup</string>
     <string name="delete">Delete</string>
     <string name="settings">Settings</string>
+    <string name="partner_luffy">魯夫</string>
+    <string name="partner_zoro">索隆</string>
+    <string name="partner_sanji">山治</string>
+    <string name="partner_ace">艾斯</string>
+    <string name="partner_law">羅</string>
+    <string name="partner_nami">娜美</string>
+    <string name="partner_robin">羅賓</string>
+    <string name="partner_vivi">薇薇</string>
+    <string name="partner_hancock">漢考克</string>
+    <string name="partner_rebecca">蕾貝卡</string>
 </resources>
