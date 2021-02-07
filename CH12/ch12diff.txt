@@ -1,0 +1,2 @@
+1. 在themes.xml 新增 <item name="windowNoTitle">true</item> 將actionBar改為ToolBar
+2. activity_main.xml 為androidx.appcompat.widget.Toolbar
