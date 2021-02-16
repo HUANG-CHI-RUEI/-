@@ -1,6 +1,7 @@
 package com.example.materialtest;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,7 +29,21 @@ public class PartnerAdapter extends RecyclerView.Adapter<PartnerAdapter.ViewHold
             mContext = parent.getContext();
         }
         View view = LayoutInflater.from(mContext).inflate(R.layout.partner_item, parent, false);
-        return new ViewHolder(view);
+
+        final ViewHolder holder = new ViewHolder(view);
+        holder.cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int position = holder.getAdapterPosition();
+                Partner partner = mPartnerList.get(position);
+                Intent intent = new Intent(mContext, PartnerActivity.class);
+                intent.putExtra(PartnerActivity.PARTNER_NAME, partner.getName());
+                intent.putExtra(PartnerActivity.PARTNER_IMAGE_ID, partner.getImageId());
+                intent.putExtra(PartnerActivity.PARTNER_PROFILE_ID, partner.getProfileId());
+                mContext.startActivity(intent);
+            }
+        });
+        return holder;
     }
 
     @Override
